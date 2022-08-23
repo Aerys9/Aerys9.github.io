@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Трансферы</title>
+</head>
+
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="header__container">
+				<a href="./index.html" class="header__logo"> MGTimes
+				</a>
+				<div class="header__menu menu">
+
+					<div class="menu__list">
+						<div class="menu__item">
+							<a href="./index.html" class="menu__link">Главная</a>
+						</div>
+						<div class="menu__item">
+							<a href="./models.html" class="menu__link">Модели</a>
+						</div>
+						<div class="menu__item">
+							<a href="./services.html" class="menu__link">Услуги</a>
+						</div>
+						<div class="menu__item">
+							<a href="./casting.html" class="menu__link">Кастинг</a>
+						</div>
+						<div class="menu__item">
+							<a href="./contacts.html" class="menu__link">Контакты</a>
+						</div>
+						<div class="menu__item">
+							<a href="./media.html" class="menu__link">Медиа</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__select-city select-city">
+					<div class="select-city__select" data-state="">
+						<div class="select-city__title" data-default="moscow">Москва</div>
+						<div class="select-city__content">
+							<input id="moscow" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="moscow" class="select-city__label">Москва</label>
+							<input id="dubai" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="dubai" class="select-city__label">Дубаи</label>
+							<input id="stPetersburg" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="stPetersburg" class="select-city__label">Санкт-Петербург</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__select-language lang-box">
+					<div class="lang-box__ru">
+						<input class="lang-box__input-ru" name="language" checked type="radio" id="ru">
+						<label class="lang-box__label-ru" for="ru">RU</label>
+					</div>
+					<div class="lang-box__line"></div>
+					<div class="lang-box__en">
+						<input class="lang-box__input-en" name="language" type="radio" id="en">
+						<label class="lang-box__label-en" for="en">EN</label>
+					</div>
+				</div>
+				<button class="header__btn-order btn-order">
+					Заказать эскорт
+				</button>
+
+
+				<div class="header__mobile-menu"></div>
+				<button class="header__btn-mobile-menu btn-mobile-menu">
+					<span class="btn-mobile-menu__line-up"></span>
+					<span class="btn-mobile-menu__line-middle"></span>
+					<span class="btn-mobile-menu__line-bottom"></span>
+				</button>
+			</div>
+		</header>
+		<main>
+			<div class="popup-order">
+
+				<div class="popup-order__block">
+					<button class="popup-order__close">
+						<svg class="popup-order__close-svg">
+							<use xlink:href="./img/popup-order/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup-order__title">Заказать эскорт</div>
+					<div class="popup-order__list">
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								01
+							</div>
+							<div class="popup-order__item-title">
+								Свяжитесь с нами
+							</div>
+							<div class="popup-order__item-text">
+								Перейдите и напишите нам в удобном для вас месседжере
+							</div>
+						</div>
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								02
+							</div>
+							<div class="popup-order__item-title">
+								Опишите пожелания
+							</div>
+							<div class="popup-order__item-text">
+								Укажите услугу, которая вас интересует, и наш менеджер подберет модель по вашим
+								предпочтениям.
+								Для новых клиентов подбор модели производится по предоплате.
+							</div>
+						</div>
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								03
+							</div>
+							<div class="popup-order__item-title">
+								Получите удовольствие
+							</div>
+							<div class="popup-order__item-text">
+								Договоритесь о встрече, после обсуждения всех деталей, менеджер нашего агенства
+								организует для вас
+								встречу с девушкой
+							</div>
+						</div>
+					</div>
+					<div class="popup-order__buttons">
+						<a href='https://t.me/mgtimes' target="_blank" class="popup-order__btn">
+							Перейти в Telegram
+							<svg class="popup-order__btn-svg">
+								<use xlink:href="./img/popup-order/sprite.svg#telegram"></use>
+							</svg>
+						</a>
+						<a href="https://wa.me/79775944345" target="_blank" class="popup-order__btn">
+							Перейти в WhatsApp
+							<svg class="popup-order__btn-svg">
+								<use xlink:href="./img/popup-order/sprite.svg#whatsapp"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="service transfers">
+				<div class="service__container transfers__container">
+					<div class="service__way-block transfers__way-block">
+						<a href="./index.html">Главная /</a> Трансферы
+					</div>
+					<h1 class="service__title transfers__title">
+						Трансферы
+					</h1>
+					<div class="service__main-content transfers__main-content">
+						<p class="service__text-01 transfers__text-01">
+							Трансфер для вас и ваших гостей по Москве C роскошными моделями в автомобилях класса «Люкс»
+							с личным
+							водителем
+						</p>
+						<div class="service__price transfers__price">
+							От 40 000 руб.
+						</div>
+						<button class="service__btn transfers__btn btn-order">
+							Заказать услугу
+						</button>
+					</div>
+
+
+					<div class="service__page-wrapper-img transfers__page-wrapper-img">
+						<img src="./img/services/services-page/transfers/transfers.jpg" alt="">
+					</div>
+					<div class="service__main-content transfers__main-content">
+						<p class="service__text-02 transfers__text-02">
+							Трансфер иностранных партнеров и гостей по Москве в компании очаровательных моделей –
+							актуальный тренд.
+							Это сервис для респектабельных людей, которые привыкли брать от жизни все. Агентство элитных
+							услуг
+							эскорта «MGTimes» подберет роскошных девушек, которые помогут скрасить время в дороге,
+							получить
+							незабываемые впечатления и яркие эмоции.
+							<br><br>
+							Заказать трансфер с личным водителем и VIP-сопровождением можно по доступной цене абсолютно
+							конфиденциально. Красивые, ухоженные и эрудированные леди подарят вам внимание и поддержат
+							разговор на
+							любую тему.
+						</p>
+						<h2 class="service__mc-subtitle-01 transfers__mc-subtitle">
+							Элитное имидж-сопровождение – эксклюзивный выбор сильных мужчин
+						</h2>
+						<p class="service__text-03 transfers__text-03">
+							Наше агентство эскорта помогает успешным предпринимателям подобрать привлекательных спутниц
+							для
+							трансфера гостей по Москве. Время в дороге пройдет незаметно, так как наши девушки знают,
+							как
+							заинтересовать мужчину и помочь ему расслабиться после поездки. Не это ли нужно после
+							перелета или перед
+							важными деловыми переговорами?
+							<br><br>
+							Раскованные топовые модели умеют правильно вести себя в высшем обществе, знают нормы этикета
+							и могут
+							поддержать любой разговор. Они станут украшением любого мероприятия, приковывая к себе
+							взгляды
+							окружающих. Такую девушку на несколько часов или ночь захочет снять каждый состоятельный
+							мужчина.
+						</p>
+						<div class="service__list-title transfers__list-title">
+							Заказывая трансфер в сопровождении красивых моделей в «MGTimes», вы можете рассчитывать на:
+						</div>
+						<ul class="service__list transfers__list">
+
+
+
+							<li class="service__list-item transfers__list-item">Полную конфиденциальность</li>
+							<li class="service__list-item transfers__list-item">Доступ к базе анкет, в которых
+								представлены топовые
+								модели высокого уровня качества и квалификации</li>
+							<li class="service__list-item transfers__list-item">Премиальную стоимость услуг, в том числе
+								на вызов
+								модели на час и дольше</li>
+
+						</ul>
+						<p class="service__text-bottom-list transfers__text-bottom-list">
+							Наше агентство тщательно отбирает спутниц для богатых и состоятельных мужчин. Девушки не
+							только красивы
+							и ухоженны, но также владеют иностранными языками, образованны и очень эрудированны.
+						</p>
+						<div class="service__mc-subtitle-02 transfers__mc-subtitle">
+							Почему нужно обратиться в «MGTimes»?
+						</div>
+						<p class="service__text-04 transfers__text-04">
+							Расширение сферы влияния и развитие бизнеса невозможно представить без деловых переговоров и
+							встреч с
+							иностранными партнерами. Повысить статус бизнес-мероприятия можно с помощью умных и
+							привлекательных
+							моделей, которых предлагает наше агентство.
+							<br><br>
+							В «MGTimes» представлен большой выбор девушек модельной внешности, которые подойдут для
+							трансфера в авто
+							с личным водителем.
+							<br><br>
+							Обращайтесь за детальной информацией по телефону, электронной почте или в мессенджерах.
+						</p>
+						<div class="service__mc-subtitle-03 transfers__mc-subtitle">Другие услуги</div>
+					</div>
+					<div class="service__other-services-list transfers__other-services-list">
+						<div class="service__other-services-item transfers__other-services-item">
+							<img src="./img/services/list/models-party.jpg" alt="">
+							<div class="service__item-shell transfers__item-shell">
+								<div class="service__item-title transfers__item-title">
+									Модели для тусовки
+								</div>
+								<div class="service__item-text transfers__item-text">
+									Создадут особую атмосферу на Вашем мероприятии!
+									<br><br>
+									Модели для тусовок или Party Girls - девушки, которые разгоревают вечеринку и
+									создают
+									необходимую атмосферу на мероприятии. Красивые девушки подчеркивают успешность
+									мужчин:
+									бизнесменов, артистов, политиков, спортсменов, повышают статус мероприятия.
+								</div>
+								<div class="service__item-price transfers__item-price">
+									От 40 000 руб.
+								</div>
+								<a href="./models-party.html" class="service__item-more transfers__item-more">
+									Узнать подробнее
+								</a>
+							</div>
+						</div>
+						<div class="service__other-services-item transfers__other-services-item">
+							<img src="./img/services/list/hostes.jpg" alt="">
+							<div class="service__item-shell transfers__item-shell">
+								<div class="service__item-title transfers__item-title">
+									Хостес
+								</div>
+								<div class="service__item-text transfers__item-text">
+									Хостес – лицо любого Вашего мероприятия, это первый человек, которого встречает
+									посетитель. Наши
+									девушки хостес обладают привлекательной модельной внешностью, отличными манерами
+									поведения,
+									грамотной речью, красивой улыбкой и эрудированностью.
+									<br><br>
+									Знакомы с тонкостями этикета, имеют навыки работы с гостями
+								</div>
+								<div class="service__item-price transfers__item-price">
+									От 40 000 руб.
+								</div>
+								<a href="./hostes.html" class="service__item-more transfers__item-more">
+									Узнать подробнее
+								</a>
+							</div>
+						</div>
+						<div class="service__other-services-item transfers__other-services-item">
+							<img src="./img/services/list/models-translators.jpg" alt="">
+							<div class="service__item-shell transfers__item-shell">
+								<div class="service__item-title transfers__item-title">
+									Переводчики модельной внешности
+								</div>
+								<div class="service__item-text transfers__item-text">
+									Поможет найти общий язык с иностранными клиентами и партнерами.
+									<br><br>
+									Переводчик на выставку отличается не только прекрасным знанием иностранного языка,
+									но и наличием
+									других важных качеств: широкого кругозора, хорошей дикции и умением держать себя в
+									стрессовых
+									ситуациях.
+								</div>
+								<div class="service__item-price transfers__item-price">
+									От 40 000 руб.
+								</div>
+								<a href="./models-translators.html" class="service__item-more transfers__item-more">
+									Узнать подробнее
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="service__decoration transfers__decoration">
+						<img class="service__decoration-img transfers__decoration-img"
+							src="./img/services/services-page/transfers/decoration-img.jpg" alt=""></img>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__up-block">
+					<div class="footer__logo">
+						<a href="./index.html">MGTimes</a>
+					</div>
+					<div class="footer__clarification">
+						Агенство не предоставляет услуги интимного характера.
+					</div>
+				</div>
+				<div class="footer__main-block">
+					<div class="footer__menu">
+						<div class="footer__list">
+							<div class="footer__item">
+								<a href="./index.html" class="footer__link">Главная</a>
+							</div>
+							<div class="footer__item">
+								<a href="./models.html" class="footer__link">Модели</a>
+							</div>
+							<div class="footer__item">
+								<a href="./services.html" class="footer__link">Услуги</a>
+							</div>
+							<div class="footer__item">
+								<a href="./casting.html" class="footer__link">Кастинг</a>
+							</div>
+							<div class="footer__item">
+								<a href="./contacts.html" class="footer__link">Контакты</a>
+							</div>
+							<div class="footer__item">
+								<a href="./media.html" class="footer__link">Медиа</a>
+							</div>
+						</div>
+						<div class="footer__social">
+							<div class="footer__item">
+								<a href="https://www.facebook.com/mgtmodel" target="_blank"
+									class="footer__link">Facebook</a>
+							</div>
+							<div class="footer__item">
+								<a href="https://instagram.com/mgtmodel" target="_blank"
+									class="footer__link">Instagram</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="footer__bottom-block">
+					<div class="footer__legal">© 2022 MGTimes</div>
+					<a href="" class="footer__legal">Публичная оферта</a>
+					<a href="" class="footer__legal">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="./js/SmoothScroll.js"></script>
+	<script src="./js/gsap/gsap.min.js"></script>
+	<script src="./js/gsap/ScrollTrigger.min.js"></script>
+	<script src="./js/app.js"></script>
+</body>

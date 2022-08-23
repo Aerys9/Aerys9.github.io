@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="./css/style.css">
+	<title>MGTimes</title>
+</head>
+
+<body>
+
+	<div class="page" id="body">
+		<header class="header">
+			<div class="header__container">
+				<a href="./index.html" class="header__logo"> MGTimes
+				</a>
+				<div class="header__menu menu">
+
+					<div class="menu__list">
+						<div class="menu__item">
+							<a href="./index.html" class="menu__link">Главная</a>
+						</div>
+						<div class="menu__item">
+							<a href="./models.html" class="menu__link">Модели</a>
+						</div>
+						<div class="menu__item">
+							<a href="./services.html" class="menu__link">Услуги</a>
+						</div>
+						<div class="menu__item">
+							<a href="./casting.html" class="menu__link">Кастинг</a>
+						</div>
+						<div class="menu__item">
+							<a href="./contacts.html" class="menu__link">Контакты</a>
+						</div>
+						<div class="menu__item">
+							<a href="./media.html" class="menu__link">Медиа</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__select-city select-city">
+					<div class="select-city__select" data-state="">
+						<div class="select-city__title" data-default="moscow">Москва</div>
+						<div class="select-city__content">
+							<input id="moscow" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="moscow" class="select-city__label">Москва</label>
+							<input id="dubai" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="dubai" class="select-city__label">Дубаи</label>
+							<input id="stPetersburg" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="stPetersburg" class="select-city__label">Санкт-Петербург</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__select-language lang-box">
+					<div class="lang-box__ru">
+						<input class="lang-box__input-ru" name="language" checked type="radio" id="ru">
+						<label class="lang-box__label-ru" for="ru">RU</label>
+					</div>
+					<div class="lang-box__line"></div>
+					<div class="lang-box__en">
+						<input class="lang-box__input-en" name="language" type="radio" id="en">
+						<label class="lang-box__label-en" for="en">EN</label>
+					</div>
+				</div>
+				<button class="header__btn-order btn-order">
+					Заказать эскорт
+				</button>
+
+
+				<div class="header__mobile-menu"></div>
+				<button class="header__btn-mobile-menu btn-mobile-menu">
+					<span class="btn-mobile-menu__line-up"></span>
+					<span class="btn-mobile-menu__line-middle"></span>
+					<span class="btn-mobile-menu__line-bottom"></span>
+				</button>
+			</div>
+		</header>
+		<main>
+
+			<div class="popup-order">
+
+				<div class="popup-order__block">
+					<button class="popup-order__close">
+						<svg class="popup-order__close-svg">
+							<use xlink:href="./img/popup-order/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup-order__title">Заказать эскорт</div>
+					<div class="popup-order__list">
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								01
+							</div>
+							<div class="popup-order__item-title">
+								Свяжитесь с нами
+							</div>
+							<div class="popup-order__item-text">
+								Перейдите и напишите нам в удобном для вас месседжере
+							</div>
+						</div>
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								02
+							</div>
+							<div class="popup-order__item-title">
+								Опишите пожелания
+							</div>
+							<div class="popup-order__item-text">
+								Укажите услугу, которая вас интересует, и наш менеджер подберет модель по вашим
+								предпочтениям.
+								Для новых клиентов подбор модели производится по предоплате.
+							</div>
+						</div>
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								03
+							</div>
+							<div class="popup-order__item-title">
+								Получите удовольствие
+							</div>
+							<div class="popup-order__item-text">
+								Договоритесь о встрече, после обсуждения всех деталей, менеджер нашего агенства
+								организует для вас
+								встречу с девушкой
+							</div>
+						</div>
+					</div>
+					<div class="popup-order__buttons">
+						<a href='https://t.me/mgtimes' target="_blank" class="popup-order__btn">
+							Перейти в Telegram
+							<svg class="popup-order__btn-svg">
+								<use xlink:href="./img/popup-order/sprite.svg#telegram"></use>
+							</svg>
+						</a>
+						<a href="https://wa.me/79775944345" target="_blank" class="popup-order__btn">
+							Перейти в WhatsApp
+							<svg class="popup-order__btn-svg">
+								<use xlink:href="./img/popup-order/sprite.svg#whatsapp"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<section class="front-section">
+				<div class="front-section__container">
+					<h1 class="front-section__title">Знакомства и отдых с моделями Москвы</h1>
+					<div class="front-section__line"></div>
+					<p class="front-section__text">
+						Роскошные обольстительницы и элегантные леди помогут составить приятную компанию,
+						подчеркнуть
+						вашу или
+						просто незабываемо провести время.
+					</p>
+				</div>
+			</section>
+			<section class="services-section">
+				<div class="services-section__container">
+					<div class="services-section__section-name">
+						<h3>Услуги</h3>
+					</div>
+					<div class="services-section__content">
+						<h2 class="services-section__title">
+							Элитный эскорт от агенства MGTimes
+						</h2>
+						<div class="services-section__line"></div>
+						<p class="services-section__text">
+							Мы оказываем конфиденциальный сервис в сфере VIP-сопровождения в Москве. Наше агентство
+							поможет успешным
+							мужчинам насладиться женским вниманием и тесным романтическим общением, получить
+							обслуживание высокого
+							качества от девушек элитного класса. В «MGTimes» вам подберут модель на любое
+							мероприятие с учетом ваших
+							предпочтений и пожеланий.
+						</p>
+						<button class="services-section__btn btn-order">
+							Заказать эскорт
+						</button>
+						<div class="services-section__list">
+							<div class="services-section__list-title">
+								В нашем агенстве можно заказать девушек для:
+							</div>
+							<div class="services-section__list-item">
+								<a class="services-section__list-link" href="./romantic-escort.html">Романтических
+									встреч</a>
+								<img class="services-section__list-img"
+									src="./img/index/services-section/list/item01.jpg" alt="">
+							</div>
+							<div class="services-section__list-item">
+								<a href="./private-events.html">Для частных мероприятий</a>
+								<img src="./img/index/services-section/list/item02.jpg" alt="">
+							</div>
+							<div class="services-section__list-item">
+								<a href="./escort-rmt.html">Сопровождения</a>
+								<img src="./img/index/services-section/list/item03.jpg" alt="">
+							</div>
+
+							<div class="services-section__list-item">
+								<a href="./travel-escort.html">Путешествий и деловых поездок</a>
+								<img src="./img/index/services-section/list/item04.jpg" alt="">
+							</div>
+							<div class="services-section__list-item">
+								<a href="./girls-relationships.html">Отношений</a>
+								<img src="./img/index/services-section/list/item05.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="services-section__decoration">
+						<div class="services-section__decoration-img-first">
+							<img src="./img/index/services-section/first-girl.jpg" alt="">
+						</div>
+
+						<div class="services-section__decoration-text">Beautiful</div>
+						<div class="services-section__decoration-img-second">
+							<img src="./img/index/services-section/second-girl.jpg" alt="">
+						</div>
+
+					</div>
+				</div>
+
+			</section>
+			<div class="models-section">
+				<div class="models-section__container">
+					<div class="models-section__section-name">
+						<h3>Модели</h3>
+					</div>
+					<div class="models-section__content">
+						<p>Ниже представлены анкеты, чтобы передать красоту, женственность и элегантность наших
+							девушек.</p>
+						<div class="models-section__swiper">
+							<!-- Additional required wrapper -->
+							<div class="models-section__swiper-wrapper">
+								<!-- Slides -->
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/vika2/img.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Вика
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>171</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>25</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/ameli/img.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Амели
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>167</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>49</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/elisa/img.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Елиса
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>172</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>28</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/ingma/ingma.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Ингма
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>174</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/marina/marina.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Марина
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>175</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/lilia/lilia.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Лилия
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>173</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>47</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>22</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/ylia/ylia.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Юлия
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>175</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>54</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/ely/ely.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Эли
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>170</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>50</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/olga/olga.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Ольга
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>173</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>58</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>24</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/nicol/nikol.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Николь
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>170</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>51</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/monika/monika.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Моника
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>169</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>55</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>24</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/mia/mia.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Миа
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>168</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>45</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>25</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/lera/lera.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Лера
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>172</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>46</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>22</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/kristina/kristina.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Кристина
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>175</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>50</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>23</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/karina/karina.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Карина
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>172</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>46</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>21</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/vika/vika.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Вика
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>172</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>27</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/lera2/lera2.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Лера
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>175</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>50</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>23</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/yliana/yliana.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Ульяна
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>165</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>25</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/katy/katy.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Катя
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>166</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>22</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/sofia/sofia.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											София
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>165</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>52</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>25</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/any/any.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Аня
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>166</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>48</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>23</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/angelina/angelina.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Ангелина
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>170</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>49</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>22</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="models-section__swiper-slide">
+									<img src="./img/models/list/emma/emma.jpg" alt="">
+									<div class="models-section__slide-description">
+										<div class="models-section__slide-name">
+											Эмма
+										</div>
+										<div class="models-section__slide-characteristics">
+											<div class="models-section__slide-property">
+												Рост: <span>171</span>
+											</div>
+											<div class="models-section__slide-property">
+												Вес: <span>56</span>
+											</div>
+											<div class="models-section__slide-property">
+												Возраст: <span>23</span>
+											</div>
+										</div>
+										<div class="models-section__slide-more">
+											<a href="#">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- If we need scrollbar -->
+							<div class="models-section__swiper-scrollbar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="advantages-section">
+				<div class="advantages-section__container">
+					<div class="advantages-section__section-name">
+						<h3>Преимущества</h3>
+					</div>
+					<div class="advantages-section__content">
+						<div class="advantages-section__rows">
+							<div class="advantages-section__rows-item">
+								<div class="advantages-section__item-num">500 +</div>
+								<div class="advantages-section__item-text">
+									Довольных клиентов благодаря индивидуальному подходу к
+									каждому и строгому отбору моделей, наши клиенты остаются довольны
+								</div>
+							</div>
+							<div class="advantages-section__rows-item">
+								<div class="advantages-section__item-num">100%
+
+								</div>
+								<div class="advantages-section__item-text">
+									В нашем элитном эскорт агенстве: фото моделей полностью
+									соответствуют действительности</div>
+							</div>
+							<div class="advantages-section__rows-item">
+								<div class="advantages-section__item-num">100%</div>
+								<div class="advantages-section__item-text">
+									Мы гарантируем полную анонимность и конфиденциальность
+									для наших клиентов
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="casting-section">
+				<div class="casting-section__container">
+					<div class="casting-section__section-name">
+						<h3>Кастинг</h3>
+					</div>
+					<div class="casting-section__content">
+						<div class="casting-section__content-img">
+							<img src="./img/index/casting-section/main-img.jpg" alt="">
+						</div>
+						<div class="casting-section__text">
+							Работа в нашем эскорт-агентстве – это удел для избранных, которых ждут яхты,
+							эксклюзивные частные
+							мероприятия, поездки по разным странам. Если вы мечтаете устроиться на престижную
+							работу, которая
+							приносит удовольствие и знакомства с успешными мужчинами, приглашаем пройти кастинг. В
+							«MGTimes» открыты
+							вакансии, и вполне возможно, что именно вы станете теми моделями, перед которыми будут
+							открыты все двери
+							в мир шикарной жизни.
+						</div>
+						<button onclick="window.location.href='./casting.html'" class="casting-section__item-btn">Узнать
+							подробнее</button>
+						<div class="casting-section__decoration">
+							<div class="casting-section__decoration-text">Casting</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vip-section">
+				<div class="vip-section__container">
+					<div class="vip-section__section-name">
+						<h3>VIP-девушки в Москве</h3>
+					</div>
+					<div class="vip-section__content">
+						<div class="vip-section__title">
+							VIP — эскорт
+						</div>
+						<div class="vip-section__line"></div>
+						<div class="vip-section__text">
+							«MGTimes» гарантирует максимум положительных впечатлений и эмоций от встреч с нашими
+							моделями. За более
+							подробной информацией о VIP-девушках в Москве обращайтесь к нам через мессенджеры и
+							электронную почту.
+						</div>
+						<button class="vip-section__item-btn">Заказать эскорт</button>
+						<div class="vip-section__decoration">
+							<div class="vip-section__decoration-text">Charming girls</div>
+							<div class="vip-section__side-img">
+								<img src="./img/index/vip-section/side-img.jpg" alt="">
+							</div>
+							<div class="vip-section__main-img">
+								<img src="./img/index/vip-section/main-img.jpg" alt="">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="additional-services-section">
+				<div class="additional-services-section__container">
+					<div class="additional-services-section__section-name">
+						<h3>Дополнительные услуги</h3>
+					</div>
+					<div class="additional-services-section__content">
+						<div class="additional-services-section__swiper">
+							<!-- Additional required wrapper -->
+							<div class="additional-services-section__swiper-wrapper">
+								<!-- Slides -->
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/romantic-escort.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Романтические встречи эскорт
+										</div>
+										<div class="additional-services-section__slide-text">
+											Подберем девушку по вашим предпочтениям: параметры фигуры, возраст,
+											натуральность.
+											<br><br>
+											Все наши эскорт модели с привлекательной и красивой внешностью,
+											образованные и
+											коммуникабельные.
+											Доставят вам настоящее удовольствие во время вашего отдыха.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./romantic-escort.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/private-events.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Модели для частных мероприятий
+										</div>
+										<div class="additional-services-section__slide-text">
+											Подберем спутницу для любого мероприятия. В компании образованной,
+											роскошной девушки вы
+											будете
+											выглядеть более презентабельно перед гостями, коллегами или
+											бизнес-партнерами.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./private-events.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/travel-escort.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Сопровождение в поездках
+										</div>
+										<div class="additional-services-section__slide-text">
+											Подберем красивую и ухоженную девушку для путешествия на отдых или для
+											деловой поездки в
+											любую
+											точку
+											мира.
+											<br><br>
+											Разделит с Вами положительные эмоции и впечатления.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./travel-escort.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/escort-rmt.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Сопровождение в рестораны, музеи, театры.
+										</div>
+										<div class="additional-services-section__slide-text">
+											Подберем красивую и привлекательную девушку для вашего досуга.
+											Романтический ужин в
+											ресторане,
+											поход
+											в театр или культурный отдых в музее.
+											<br><br>
+											Каждая эскорт модель воспитанная, образованная и со знанием этикета.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./escort-rmt.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/girls-relationships.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Девушки для отношений
+										</div>
+										<div class="additional-services-section__slide-text">
+											Мы серьезно подходим к выбору девушки на отношения для клиента.
+											Индивидуальный подход,
+											соблюдая
+											ваши
+											критерии и предпочтения.
+											<br><br>
+											Подберем девушку, которая не засвечена в эскорт деятельности и с которой
+											можно построить
+											легкие,
+											любовно-романтические отношения.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./girls-relationships.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/models-exhibition.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Промо модели на выставку
+										</div>
+										<div class="additional-services-section__slide-text">
+											Промо модель – девушки и юноши модельной внешности, работающие на
+											выставочном
+											мероприятии или
+											презентации, и информирующие посетителей мероприятия о местонахождении
+											стенда и акциях
+											рекламируемой
+											компании.
+											<br><br>
+											Модели нашего агентства могут выгодно презентовать Ваш продукт и
+											привлечь клиентов к
+											стенду
+											компании.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./models-exhibition.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/models-party.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Модели для тусовки
+										</div>
+										<div class="additional-services-section__slide-text">
+											Создадут особую атмосферу на Вашем мероприятии!
+											<br><br>
+											Модели для тусовок или Party Girls - девушки, которые разгоревают
+											вечеринку и создают
+											необходимую
+											атмосферу на мероприятии. Красивые девушки подчеркивают успешность
+											мужчин: бизнесменов,
+											артистов,
+											политиков, спортсменов, повышают статус мероприятия.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./models-party.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/hostes.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Хостес
+										</div>
+										<div class="additional-services-section__slide-text">
+											Хостес – лицо любого Вашего мероприятия, это первый человек, которого
+											встречает
+											посетитель. Наши
+											девушки хостес обладают привлекательной модельной внешностью, отличными
+											манерами
+											поведения,
+											грамотной речью, красивой улыбкой и эрудированностью.
+											<br><br>
+											Знакомы с тонкостями этикета, имеют навыки работы с гостями
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./hostes.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/models-translators.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Переводчики модельной внешности
+										</div>
+										<div class="additional-services-section__slide-text">
+											Поможет найти общий язык с иностранными клиентами и партнерами.
+											<br><br>
+											Переводчик на выставку отличается не только прекрасным знанием
+											иностранного языка, но и
+											наличием
+											других важных качеств: широкого кругозора, хорошей дикции и умением
+											держать себя в
+											стрессовых
+											ситуациях.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./models-translators.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/models-filming.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Модели для съемок
+										</div>
+										<div class="additional-services-section__slide-text">
+											Для каталогов, журналов, рекламной продукции и видеосъемки.
+											<br><br>
+											Профессиональные модели для съемок полностью передадут тематику и
+											настроение
+											придуманного Вами
+											сюжета.
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./models-filming.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="additional-services-section__swiper-slide">
+									<img src="./img/services/list/transfers.jpg" alt="">
+									<div class="additional-services-section__slide-description">
+										<div class="additional-services-section__slide-title">
+											Трансферы
+										</div>
+										<div class="additional-services-section__slide-text">
+											Трансфер для вас и ваших гостей по Москве
+											<br><br>
+											C роскошными моделями в автомобилях класса «Люкс» с личным водителем
+										</div>
+										<div class="additional-services-section__slide-more">
+											<a href="./transfers.html">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<!-- If we need scrollbar -->
+							<div class="additional-services-section__swiper-scrollbar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="media-section">
+				<div class="media-section__container">
+					<div class="media-section__section-name">
+						<h3>Медиа</h3>
+					</div>
+					<div class="media-section__content">
+						<div class="media-section__list">
+							<div class="media-section__list-item">
+								<img src="./img/index/media-section/image01.jpg" alt="">
+								<div class="media-section__item-content">
+									<div class="media-section__item-shell-title-date">
+										<div class="media-section__item-title">
+											Заголовок
+										</div>
+										<div class="media-section__item-date">
+											23.05.2022
+										</div>
+									</div>
+									<div class="media-section__item-text">
+										Модели для мероприятий, фото и видеосъемок, показов, конференций, выставок,
+										хостеса
+									</div>
+									<div class="media-section__item-more">
+										<a href="#" class="media-section__more-link">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="media-section__list-item">
+								<img src="./img/index/media-section/image02.jpg" alt="">
+								<div class="media-section__item-content">
+									<div class="media-section__item-shell-title-date">
+										<div class="media-section__item-title">
+											Заголовок
+										</div>
+										<div class="media-section__item-date">
+											23.05.2022
+										</div>
+									</div>
+									<div class="media-section__item-text">
+										Модели для мероприятий, фото и видеосъемок, показов, конференций, выставок,
+										хостеса
+									</div>
+									<div class="media-section__item-more">
+										<a href="#" class="media-section__more-link">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button onclick="window.location.href='./media.html'" class="media-section__item-btn">Посмотреть
+							все</button>
+					</div>
+					<div class="media-section__decoration">
+						<div class="media-section__decoration-text">News</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__up-block">
+					<div class="footer__logo">
+						<a href="./index.html">MGTimes</a>
+					</div>
+					<div class="footer__clarification">
+						Агенство не предоставляет услуги интимного характера.
+					</div>
+				</div>
+				<div class="footer__main-block">
+					<div class="footer__menu">
+						<div class="footer__list">
+							<div class="footer__item">
+								<a href="./index.html" class="footer__link">Главная</a>
+							</div>
+							<div class="footer__item">
+								<a href="./models.html" class="footer__link">Модели</a>
+							</div>
+							<div class="footer__item">
+								<a href="./services.html" class="footer__link">Услуги</a>
+							</div>
+							<div class="footer__item">
+								<a href="./casting.html" class="footer__link">Кастинг</a>
+							</div>
+							<div class="footer__item">
+								<a href="./contacts.html" class="footer__link">Контакты</a>
+							</div>
+							<div class="footer__item">
+								<a href="./media.html" class="footer__link">Медиа</a>
+							</div>
+						</div>
+						<div class="footer__social">
+							<div class="footer__item">
+								<a href="https://www.facebook.com/mgtmodel" target="_blank"
+									class="footer__link">Facebook</a>
+							</div>
+							<div class="footer__item">
+								<a href="https://instagram.com/mgtmodel" target="_blank"
+									class="footer__link">Instagram</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="footer__bottom-block">
+					<div class="footer__legal">© 2022 MGTimes </div>
+					<a href="" class="footer__legal">Публичная оферта</a>
+					<a href="" class="footer__legal">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="./js/SmoothScroll.js"></script>
+	<script src="./js/gsap/gsap.min.js"></script>
+	<script src="./js/gsap/ScrollTrigger.min.js"></script>
+	<script src="./js/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/app.js"></script>
+
+</body>

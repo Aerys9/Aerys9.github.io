@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Модель Ориана</title>
+</head>
+
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="header__container">
+				<a href="./index.html" class="header__logo"> MGTimes
+				</a>
+				<div class="header__menu menu">
+
+					<div class="menu__list">
+						<div class="menu__item">
+							<a href="./index.html" class="menu__link">Главная</a>
+						</div>
+						<div class="menu__item">
+							<a href="./models.html" class="menu__link">Модели</a>
+						</div>
+						<div class="menu__item">
+							<a href="./services.html" class="menu__link">Услуги</a>
+						</div>
+						<div class="menu__item">
+							<a href="./casting.html" class="menu__link">Кастинг</a>
+						</div>
+						<div class="menu__item">
+							<a href="./contacts.html" class="menu__link">Контакты</a>
+						</div>
+						<div class="menu__item">
+							<a href="./media.html" class="menu__link">Медиа</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__select-city select-city">
+					<div class="select-city__select" data-state="">
+						<div class="select-city__title" data-default="moscow">Москва</div>
+						<div class="select-city__content">
+							<input id="moscow" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="moscow" class="select-city__label">Москва</label>
+							<input id="dubai" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="dubai" class="select-city__label">Дубаи</label>
+							<input id="stPetersburg" class="select-city__input" type="radio" name="singleSelect" />
+							<label for="stPetersburg" class="select-city__label">Санкт-Петербург</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__select-language lang-box">
+					<div class="lang-box__ru">
+						<input class="lang-box__input-ru" name="language" checked type="radio" id="ru">
+						<label class="lang-box__label-ru" for="ru">RU</label>
+					</div>
+					<div class="lang-box__line"></div>
+					<div class="lang-box__en">
+						<input class="lang-box__input-en" name="language" type="radio" id="en">
+						<label class="lang-box__label-en" for="en">EN</label>
+					</div>
+				</div>
+				<button class="header__btn-order btn-order">
+					Заказать эскорт
+				</button>
+
+
+				<div class="header__mobile-menu"></div>
+				<button class="header__btn-mobile-menu btn-mobile-menu">
+					<span class="btn-mobile-menu__line-up"></span>
+					<span class="btn-mobile-menu__line-middle"></span>
+					<span class="btn-mobile-menu__line-bottom"></span>
+				</button>
+			</div>
+		</header>
+		<main>
+			<div class="popup-order">
+
+				<div class="popup-order__block">
+					<button class="popup-order__close">
+						<svg class="popup-order__close-svg">
+							<use xlink:href="./img/popup-order/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup-order__title">Заказать эскорт</div>
+					<div class="popup-order__list">
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								01
+							</div>
+							<div class="popup-order__item-title">
+								Свяжитесь с нами
+							</div>
+							<div class="popup-order__item-text">
+								Перейдите и напишите нам в удобном для вас месседжере
+							</div>
+						</div>
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								02
+							</div>
+							<div class="popup-order__item-title">
+								Опишите пожелания
+							</div>
+							<div class="popup-order__item-text">
+								Укажите услугу, которая вас интересует, и наш менеджер подберет модель по вашим
+								предпочтениям.
+								Для новых клиентов подбор модели производится по предоплате.
+							</div>
+						</div>
+						<div class="popup-order__list-item">
+							<div class="popup-order__item-number">
+								03
+							</div>
+							<div class="popup-order__item-title">
+								Получите удовольствие
+							</div>
+							<div class="popup-order__item-text">
+								Договоритесь о встрече, после обсуждения всех деталей, менеджер нашего агенства
+								организует для вас
+								встречу с девушкой
+							</div>
+						</div>
+					</div>
+					<div class="popup-order__buttons">
+						<a href='https://t.me/mgtimes' target="_blank" class="popup-order__btn">
+							Перейти в Telegram
+							<svg class="popup-order__btn-svg">
+								<use xlink:href="./img/popup-order/sprite.svg#telegram"></use>
+							</svg>
+						</a>
+						<a href="https://wa.me/79775944345" target="_blank" class="popup-order__btn">
+							Перейти в WhatsApp
+							<svg class="popup-order__btn-svg">
+								<use xlink:href="./img/popup-order/sprite.svg#whatsapp"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="model">
+				<div class="model__container">
+					<div class="model__way-block">
+						<div class="model__link-shell">
+							<a href="./index.html">Главная /</a> <a href="./models.html">Модели
+								/</a> Ориана
+						</div>
+						<a href="./models.html" class="model__adaptive-link-models">Модели</a>
+					</div>
+					<div class="model__content">
+						<div class="model__images">
+							<img src="./img/models/list/oriana/oriana.jpg" alt="">
+							<img src="./img/models/list/oriana/2.jpg" alt="">
+							<img src="./img/models/list/oriana/3.jpg" alt="">
+						</div>
+						<div class="model__info">
+							<div class="model__info-name">Ориана</div>
+							<div class="model__info-characteristics">
+								<div class="model__info-property">
+									Рост: <span>174</span>
+								</div>
+								<div class="model__info-property">
+									Вес: <span>49</span>
+								</div>
+								<div class="model__info-property">
+									Возраст: <span>23</span>
+								</div>
+							</div>
+							<div class="model__title-about">О себе</div>
+
+							<div class="model__about-p">
+								Привет, я позитивная и сексуальная девочка. Хочу провести красивый, роскошный отдых с
+								достойным
+								мужчиной Встречаюсь в сексуальном нижнем белье. В эскорте недавно. Пишите в наше
+								агенство.
+							</div>
+							<div class="model__info-price-block">
+								<div class="model__info-price">
+									Стоимость: <span>от 60 000 ₽</span>
+								</div>
+
+							</div>
+							<button class="model__info-btn btn-order">Пригласить модель</button>
+
+
+
+
+
+						</div>
+						<div class="model__swiper-img">
+							<div class="model__swiper-wrapper-img">
+								<div class="model__swiper-slide-img">
+									<img src="./img/models/list/oriana/2.jpg" alt="">
+								</div>
+								<div class="model__swiper-slide-img">
+									<img src="./img/models/list/oriana/3.jpg" alt="">
+								</div>
+
+
+
+
+							</div>
+							<div class=" model__swiper-scrollbar-img">
+							</div>
+						</div>
+					</div>
+					<div class="model__more-models">
+						<div class="model__more-models-title">
+							Еще модели
+						</div>
+						<div class="model__swiper">
+							<!-- Additional required wrapper -->
+							<div class="model__swiper-wrapper">
+								<!-- Slides -->
+								<div class="model__swiper-slide">
+									<a href="./model-vika2.html" class="model__slider-more-link-shell">
+										<img src="./img/models/list/vika2/img.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Вика
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>171</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>25</span>
+												</div>
+											</div>
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-vika2.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-ameli.html" class="model__slider-more-link-shell">
+										<img src="./img/models/list/ameli/img.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Амели
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>167</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>49</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-ameli.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-elisa.html" class="model__slider-more-link-shell">
+										<img src="./img/models/list/elisa/img.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Елиса
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>172</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>28</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-elisa.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-ingma.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/ingma/ingma.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Ингма
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>174</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-ingma.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-marina.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/marina/marina.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Марина
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>175</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-marina.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-lilia.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/lilia/lilia.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Лилия
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>173</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>47</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>22</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-lilia.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-ylia.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/ylia/ylia.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Юлия
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>175</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>54</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-ylia.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-ely.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/ely/ely.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Эли
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>170</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>50</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-ely.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-olga.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/olga/olga.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Ольга
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>173</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>58</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>24</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="../model-olga.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-nicol.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/nicol/nikol.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Николь
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>170</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>51</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-nicol.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-monika.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/monika/monika.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Моника
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>169</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>55</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>24</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-monika.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-mia.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/mia/mia.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Миа
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>168</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>45</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>25</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-mia.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-lera.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/lera/lera.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Лера
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>172</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>46</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>22</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-lera.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-kristina.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/kristina/kristina.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Кристина
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>175</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>50</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>23</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-kristina.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-karina.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/karina/karina.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Карина
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>172</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>46</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>21</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-karina.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-vika.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/vika/vika.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Вика
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>172</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>27</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-vika.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-lera2.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/lera2/lera2.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Лера
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>175</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>50</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>23</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-lera2.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-yliana.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/yliana/yliana.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Ульяна
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>165</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>25</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-yliana.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-katy.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/katy/katy.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Катя
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>166</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>22</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-katy.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-sofia.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/sofia/sofia.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												София
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>165</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>52</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>25</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-sofia.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-vera.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/vera/vera.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Вера
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>176</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>49</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>23</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-vera.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-liya.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/liya/liya.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Лия
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>177</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>48</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>26</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-liya.html">Узнать
+										подробнее</a>
+								</div>
+								<div class="model__swiper-slide">
+									<a href="./model-iri.html" class="model__slider-more-link-shell"><img
+											src="./img/models/list/iri/iri.jpg" alt="">
+										<div class="model__model-description">
+											<div class="model__slide-name">
+												Ири
+											</div>
+											<div class="model__model-characteristics">
+												<div class="model__slide-property">
+													Рост: <span>174</span>
+												</div>
+												<div class="model__slide-property">
+													Вес: <span>51</span>
+												</div>
+												<div class="model__slide-property">
+													Возраст: <span>19</span>
+												</div>
+											</div>
+
+										</div>
+									</a>
+									<a class="model__slide-more" href="./model-iri.html">Узнать
+										подробнее</a>
+								</div>
+							</div>
+							<div class="model__swiper-button-prev"></div>
+							<div class="model__swiper-button-next"></div>
+							<div class="model__swiper-scrollbar"></div>
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+			</div>
+	</div>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__up-block">
+				<div class="footer__logo">
+					<a href="./index.html">MGTimes</a>
+				</div>
+				<div class="footer__clarification">
+					Агенство не предоставляет услуги интимного характера.
+				</div>
+			</div>
+			<div class="footer__main-block">
+				<div class="footer__menu">
+					<div class="footer__list">
+						<div class="footer__item">
+							<a href="./index.html" class="footer__link">Главная</a>
+						</div>
+						<div class="footer__item">
+							<a href="./models.html" class="footer__link">Модели</a>
+						</div>
+						<div class="footer__item">
+							<a href="./services.html" class="footer__link">Услуги</a>
+						</div>
+						<div class="footer__item">
+							<a href="./casting.html" class="footer__link">Кастинг</a>
+						</div>
+						<div class="footer__item">
+							<a href="./contacts.html" class="footer__link">Контакты</a>
+						</div>
+						<div class="footer__item">
+							<a href="./media.html" class="footer__link">Медиа</a>
+						</div>
+					</div>
+					<div class="footer__social">
+						<div class="footer__item">
+							<a href="https://www.facebook.com/mgtmodel" target="_blank"
+								class="footer__link">Facebook</a>
+						</div>
+						<div class="footer__item">
+							<a href="https://instagram.com/mgtmodel" target="_blank" class="footer__link">Instagram</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="footer__bottom-block">
+				<div class="footer__legal">© 2022 MGTimes</div>
+				<a href="" class="footer__legal">Публичная оферта</a>
+				<a href="" class="footer__legal">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	</div>
+	<script src="./js/SmoothScroll.js"></script>
+	<script src="./js/gsap/gsap.min.js"></script>
+	<script src="./js/gsap/ScrollTrigger.min.js"></script>
+	<script src="./js/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/app.js"></script>
+</body>
