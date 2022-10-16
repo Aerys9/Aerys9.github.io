@@ -1,1 +1,1 @@
-<a>vaerysv.github.io/MGTimes/</a>
+https://vaerysv.github.io/MGTimes/
